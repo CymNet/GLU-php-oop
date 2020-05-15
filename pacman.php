@@ -19,10 +19,17 @@ $inky = new Ghost();
 $clyde = new Ghost();
 
 $blinky->set_name('Blinky');
-$banana->set_name('Banana');
+$pinky->set_name('Pinky');
+$inky->set_name('Inky');
+$clyde->set_name('Clyde');
 
-echo $apple->get_name();
+echo $blinky->get_name();
 echo "<br>";
-echo $banana->get_name();
+echo $pinky->get_name();
+echo "<br>";
+echo $inky->get_name();
+echo "<br>";
+echo $clyde->get_name();
+echo "<br>";
 
 ?>
